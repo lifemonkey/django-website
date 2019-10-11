@@ -9,8 +9,7 @@ from .models import Post
 # 	slug = forms.CharField()
 
 
-
 class PostModelForm(forms.ModelForm):
 	class Meta:
 		model = Post
-		fields = ['title','description','image','slug']
+		fields = ['title', 'description', 'image', 'slug']
